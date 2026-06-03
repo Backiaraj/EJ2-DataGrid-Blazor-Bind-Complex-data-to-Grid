@@ -22,7 +22,7 @@ This example shows that how to bind an complex data to [Blazor DataGrid](https:/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Backiaraj/EJ2-DataGrid-Blazor-Bind-Complex-data-to-Grid.git
+git clone https://github.com/SyncfusionExamples/EJ2-DataGrid-Blazor-Bind-Complex-data-to-Grid.git
 cd BindComplexDataToGrid
 ```
 
