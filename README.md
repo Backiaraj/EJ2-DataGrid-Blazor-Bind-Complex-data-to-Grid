@@ -1,33 +1,46 @@
-# Blazor DataGrid - Bind Complex data to Grid
+# Bind Complex Data to Blazor DataGrid
 
-This example shows that how to bind an complex data to Syncfusion Blazor DataGrid.
+This example shows that how to bind an complex data to [Blazor DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid).
 
 ## Features
 
-* Fast rendering with virtualization and row/column virtualization
-* Sorting, filtering, grouping, and searching capabilities
-* Inline, batch, and dialog editing modes
-* Template columns, column resizing, reordering, and freezing
-* Excel and PDF export (requires additional Syncfusion export packages)
+- **Complex Data Binding** - Seamlessly bind nested object properties to grid columns
+- **Inline Editing** - Add, edit, and delete records with inline editing mode
+- **Sorting & Filtering** - Built-in sorting, filtering, and searching across all columns
+- **Responsive Paging** - Handle large datasets with efficient pagination
+- **Template Columns** - Customize column display with Razor templates
+- **Real-time Updates** - Immediately reflect changes in the grid
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
+```bash
+git clone https://github.com/Backiaraj/EJ2-DataGrid-Blazor-Bind-Complex-data-to-Grid.git
+cd BindComplexDataToGrid
+```
 
-```powershell
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
 dotnet restore
-dotnet build
+
+# Run the project
+dotnet run
 ```
 
 ## References
